@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Todolist</title>
+
+</head>
+<body>
+<div class="hamburger-menu">
+  <div class="hamburger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<nav class="sidebar">
+  <div class="close-btn">&times;</div>
+  <ul>
+    <li><a href="index.html" class="active">Todo List</a></li>
+    <li><a href="timer.html">Kawaii Timer</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="kitty-header">
+    <img class="kitty-face" src="kitty.png" alt="kitty">
+
+    <h1>Kawaii todo List</h1>
+  </div>
+
+
+
+  <div class="todo-container">
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Qsq tu dois faire bb..." class="kawaii-input">
+      <button id="addTask" class="kawaii-btn">Add</button>
+    </div>
+    <ul id="taskList" class="task-list"></ul>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>

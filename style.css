@@ -176,7 +176,7 @@ h1 {
 }
 
 .important-btn {
- background-color:var(--main-pink);
+   background-color:var(--main-pink);
 
     border: none;
     border-radius: 50%;
